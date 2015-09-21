@@ -117,23 +117,36 @@ nav a:visited{
   margin-left: -30px;
 }
 
-#content{
+.content{
   list-style: none;
   line-height: 14px;
-  background: rgba(255, 255, 255, .4);
+  background: rgba(255, 255, 255, .6);
   width: 102%;
   padding: 10px;
   margin-top: 60px;
-  margin-left: -15px;
+  margin-left: -18px;
   box-shadow: 0px 6px 8px #888888;
   font-family: 'Arial';
 }
 
-#content h1{
+
+.content h1{
   font-size: 26px;
   color: #071596;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+.content h2{
+  font-size: 20px;
+  color: #071596;
+  margin-bottom: 20px;
+}
+
+.content p{
+  font-size: 16px;
+  font-style: bold;
+  line-height: 20px;
 }
 
 .content-title{
@@ -141,10 +154,18 @@ nav a:visited{
 }
 
 .content-title h1{
-  font-size: 20px; 
+  font-size: 26px; 
 
 }
 
 .content-text ul{
   list-style: none;
+}
+
+footer{
+  background: #ccc;
+  width: 100%;
+  margin-left: -10px;
+  padding: 5px 10px;
+
 }
